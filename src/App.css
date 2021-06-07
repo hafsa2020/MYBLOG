@@ -1,0 +1,38 @@
+.flex-container {
+  /* We first create a flex layout context */
+  display: flex;
+  
+  /* Then we define the flow direction 
+     and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+  margin-bottom: 35px;
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-around;
+  
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flex-item {
+  background: rgb(125, 150, 231);
+  padding: 5px;
+  width: 300px;
+  height: 200px;
+  margin-top: 35px;
+  line-height: 50px;
+  color: white;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+}
+
+.h1{
+  color:  rgb(14, 37, 114);
+  display: 'flex';
+  text-align: center;
+}
